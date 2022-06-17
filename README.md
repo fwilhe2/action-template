@@ -9,5 +9,7 @@ Sample yaml snippet:
 ```yaml
       - uses: fwilhe2/action-template@main
         with:
-          guest-name: Thomas
+          guest_name: Thomas
 ```
+
+Run the action manually on the cli: `INPUT_GUEST_NAME=Michael node dist/index.js`

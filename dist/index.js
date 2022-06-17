@@ -50,7 +50,7 @@ exports.greeting = greeting;
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
-            const guestName = core.getInput('guest-name');
+            const guestName = core.getInput('guest_name');
             core.info(yield greeting(guestName));
         }
         catch (error) {

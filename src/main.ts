@@ -6,7 +6,7 @@ export async function greeting(name: string): Promise<string> {
 
 async function run(): Promise<void> {
   try {
-    const guestName = core.getInput('guest-name')
+    const guestName = core.getInput('guest_name')
     core.info(await greeting(guestName))
   } catch (error) {
     if (error instanceof Error) core.setFailed(error.message)

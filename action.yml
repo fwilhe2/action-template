@@ -2,7 +2,7 @@ name: 'my-action'
 description: 'Provide a description here'
 author: 'Florian Wilhelm'
 inputs:
-  guest-name: # change this
+  guest_name: # change this
     required: true
     description: 'What is the name of our guest?'
     default: 'Michael'
