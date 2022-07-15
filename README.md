@@ -13,3 +13,13 @@ Sample yaml snippet:
 ```
 
 Run the action manually on the cli: `INPUT_GUEST_NAME=Michael node dist/index.js`
+
+## Development
+
+### Upgrade Dependencies
+
+```
+yarn run dependency-upgrade
+```
+
+
