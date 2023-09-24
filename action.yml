@@ -7,5 +7,5 @@ inputs:
     description: 'What is the name of our guest?'
     default: 'Michael'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
