@@ -5,6 +5,7 @@
   "private": true,
   "license": "MIT",
   "author": "Florian Wilhelm",
+  "packageManager": "yarn@4.0.1",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write '**/*.ts'",
