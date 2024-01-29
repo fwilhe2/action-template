@@ -13,3 +13,13 @@ updates:
     ignore:
       - dependency-name: "@types/node"
         update-types: ["version-update:semver-major"]
+
+  - package-ecosystem: "devcontainers"
+    directory: "/"
+    schedule:
+      interval: weekly
+  
+  - package-ecosystem: "docker"
+    directory: "/.devcontainer"
+    schedule:
+      interval: weekly
