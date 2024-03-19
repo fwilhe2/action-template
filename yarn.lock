@@ -1024,12 +1024,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.11.10":
-  version: 20.11.10
-  resolution: "@types/node@npm:20.11.10"
+"@types/node@npm:20.11.29":
+  version: 20.11.29
+  resolution: "@types/node@npm:20.11.29"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: aced8595c2786d4e60471772659add1e2e0d1f2b73d119820b2e1815426d6e52c6a77f1c7fca8ea46490c36f7959cc46b0dc609fa2e80b7fd24f9a7d696c2210
+  checksum: b839bad64b2d0e2b4a2d09a53c019ac06c732ac66ea88f3a86a9d2f28a789caf8fd56b888f577183459733abfa1b77e4bf6986cde18b2ec63e1939427aa0d387
   languageName: node
   linkType: hard
 
@@ -1296,7 +1296,7 @@ __metadata:
   resolution: "action-template@workspace:."
   dependencies:
     "@actions/core": "npm:^1.10.1"
-    "@types/node": "npm:20.11.10"
+    "@types/node": "npm:20.11.29"
     "@typescript-eslint/parser": "npm:^6.9.1"
     "@vercel/ncc": "npm:^0.38.1"
     eslint: "npm:^8.52.0"
